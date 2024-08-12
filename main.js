@@ -52,8 +52,8 @@ var products = [
     { id: 2, name: 'Banana', price: 1.0 },
     { id: 3, name: 'Orange', price: 2.0 },
     { id: 4, name: 'Olcha', price: 3.0 },
-    { id: 4, name: 'Uzum', price: 10.0 },
-    { id: 4, name: 'Shaftoli', price: 10.0 }
+    { id: 5, name: 'Uzum', price: 10.0 },
+    { id: 6, name: 'Shaftoli', price: 10.0 }
 ];
 var productList = document.getElementById('productList');
 products.forEach(function (product) {

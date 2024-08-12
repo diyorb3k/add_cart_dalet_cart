@@ -80,7 +80,7 @@ products.forEach(product => {
     productDiv.textContent = `${product.name} - $${product.price}`;
 
     const addButton = document.createElement('button');
-    addButton.textContent = 'Add to Cart';
+    addButton.textContent = 'Corzinka';
     addButton.addEventListener('click', () => {
         cart.addItem(product);
     });

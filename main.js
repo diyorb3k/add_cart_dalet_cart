@@ -60,7 +60,7 @@ products.forEach(function (product) {
     var productDiv = document.createElement('div');
     productDiv.textContent = "".concat(product.name, " - $").concat(product.price);
     var addButton = document.createElement('button');
-    addButton.textContent = 'Add to Cart';
+    addButton.textContent = 'Corzinka';
     addButton.addEventListener('click', function () {
         cart.addItem(product);
     });

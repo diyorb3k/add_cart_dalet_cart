@@ -67,7 +67,10 @@ const cart = new ShoppingCart();
 const products: Product[] = [
     { id: 1, name: 'Apple', price: 1.5 },
     { id: 2, name: 'Banana', price: 1.0 },
-    { id: 3, name: 'Orange', price: 2.0 }
+    { id: 3, name: 'Orange', price: 2.0 },
+    { id: 4, name: 'Olcha', price: 3.0 },
+    { id: 4, name: 'Uzum', price: 10.0 }
+    { id: 4, name: 'Shaftoli', price: 10.0 }
 ];
 
 const productList = document.getElementById('productList')!;
